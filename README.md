@@ -9,7 +9,12 @@ Github Copilot Code Review
 ### How to use codeql in vscode
 
 [Reference 1](https://medium.com/ci-cd-devops/trying-codeql-in-vs-code-for-first-time-6f440a65536)\
-[Reference 2](https://codeql.github.com/docs/codeql-cli/creating-codeql-databases/)
+[CodeQL](https://codeql.github.com)
+    - [Reference 2](https://codeql.github.com/docs/codeql-cli/creating-codeql-databases/)
+
+#### example
+
+`codeql-cli/codeql database create ./CWE-416-codeql-db -s ./CWE-416 -j 0 -l cpp --command "make"`
 
 ## Summary
 
