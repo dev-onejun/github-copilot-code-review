@@ -1,7 +1,7 @@
 .venv/
 .vscode/
 node_modules/
-codeql/
+*codeql*/
 codeql-cli/
 copilot-cwe-scenarios-dataset/
 sqli-db/
