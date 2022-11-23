@@ -21,6 +21,8 @@ codeql-cli/codeql database create ./CWE-416-codeql-db -s ./CWE-416 -j 0 -l cpp -
 
 ## Summary
 
+- All codeql queries(.ql file) are used from [github codeql repository](https://github.com/github/codeql)
+
 1. CWE-79
 2. [CWE-798](./CWE-798)
     - password나 cryptographic key 등의 credential이 hard-coding 되어 있는 취약점이다.
