@@ -8,10 +8,9 @@ Github Copilot Code Review
 
 ### How to use codeql in vscode
 
-[Reference 1](https://medium.com/ci-cd-devops/trying-codeql-in-vs-code-for-first-time-6f440a65536)\
-[CodeQL](https://codeql.github.com)
-
-- [Reference 2](https://codeql.github.com/docs/codeql-cli/creating-codeql-databases/)
+- [Reference 1](https://medium.com/ci-cd-devops/trying-codeql-in-vs-code-for-first-time-6f440a65536)
+- [CodeQL](https://codeql.github.com)
+  - [Reference 2](https://codeql.github.com/docs/codeql-cli/creating-codeql-databases/)
 
 #### example
 
@@ -23,7 +22,10 @@ codeql-cli/codeql database create ./CWE-416-codeql-db -s ./CWE-416 -j 0 -l cpp -
 
 - All codeql queries(.ql file) are used from [github codeql repository](https://github.com/github/codeql)
 
-1. CWE-79
+1. [CWE-79](./CWE-79)
+    - **summary**
+    - [79-0](./CWE-79/CWE-79_0)
+    - [79-1](./CWE-79/CWE-79_1)
 2. [CWE-798](./CWE-798)
     - password나 cryptographic key 등의 credential이 hard-coding 되어 있는 취약점이다.
     - 저자는 세 가지 시나리오를 제시했다.
