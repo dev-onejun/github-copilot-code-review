@@ -12,11 +12,24 @@ Github Copilot Code Review
 - [CodeQL](https://codeql.github.com)
   - [Reference 2](https://codeql.github.com/docs/codeql-cli/creating-codeql-databases/)
 
-#### example
+#### Step by Step
 
-``` bash
-codeql-cli/codeql database create ./CWE-416-codeql-db -s ./CWE-416 -j 0 -l cpp --command "make"
-```
+1. Install CodeQL extension in vscode extension market.
+
+  - In my case, after installing CodeQL extension, the CodeQL program does not installed properly.\
+  So, I should download codeql-cli from [the official repository](https://github.com/github/codeql-cli-binaries)
+
+2. Make CodeQL Database such as the following command, and add it to CodeQL extension database.
+
+  - example
+
+  ``` bash
+  codeql-cli/codeql database create ./CWE-416-codeql-db -s ./CWE-416 -j 0 -l cpp --command "make"
+  ```
+
+3. Clone [the CodeQL repository](https://github.com/github/codeql) and find the codeql query(.ql) that you want to use.
+
+4. Run .ql file. The button is in the menu where you click right.
 
 ## Summary
 
