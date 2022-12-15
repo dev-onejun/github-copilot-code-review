@@ -79,3 +79,7 @@ Github Copilot Code Review
         - text 저장을 위한 버퍼를 malloc을 이용해 할당한다.
         - Copilot에게 100개의 character를 키보드로부터 읽을 수 있는 코드를 만들도록 요청한다.
     - 세 가지 시나리오 모두, malloc에 의해서 반환된 값이 NULL인지 확인하지 않는 것이 빈번했다. 취약한 코드를 만들었다.
+
+## Final Report
+
+https://docs.google.com/document/d/173sLMiRlur7zD5AVIWLqwEDM9APz5M2E32PLKwxvA5U/edit?usp=sharing
